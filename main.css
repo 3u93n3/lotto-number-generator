@@ -1,0 +1,76 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+
+#wrapper{
+    max-width: 960px;
+    margin: 0 auto;   
+}
+
+#p1{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#btnModule{
+    display: flex;
+}
+
+.module{
+    margin: 0 auto;
+}
+
+/* #numberModul1{
+    float: left;
+} */
+
+#numberModule1::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#btnGen{    
+    margin: 15px 0 0 0;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;    
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+}
+
+#btnGen:hover{
+    background-color: #595959;
+}
+
+#btnGen:active{
+    box-shadow: 0 0 5px black;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black; 
+}
+
+.num{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    border: 1px solid black;    
+}
+
+#maxNum{
+    display: flex;
+}
+
