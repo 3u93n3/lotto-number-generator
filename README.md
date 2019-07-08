@@ -1,5 +1,6 @@
 # Lotto number generator
 
 Pick lotto number sequence.
-First module is for uses numbers second is the highest of them.
-Third module is for how much ticket do you want.
+- First module is for how many numbers and biggest number.
+- Second module is for extra numbers and biggest number.
+- Third module is for how much ticket do you want.
