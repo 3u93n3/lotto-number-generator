@@ -13,19 +13,25 @@ body{
     font-size: 1.5em;
 }
 
-#btnModule{
-    display: flex;
-}
-
-.module{
+#p2{
+    width: 415px;
     margin: 0 auto;
 }
 
-/* #numberModul1{
-    float: left;
-} */
+#btnModule{
+    width: 410px;
+    margin: 0 auto;
+}
 
-#numberModule1::after{
+.module, .maxFloat{
+    float: left;
+}
+
+.transform{
+    transform: rotate(270deg);
+}
+
+#btnFrame::before{
     content: '';
     display: table;
     clear: both;
@@ -42,10 +48,6 @@ body{
     padding: 5px;
 }
 
-#btnGen:hover{
-    background-color: #595959;
-}
-
 #btnGen:active{
     box-shadow: 0 0 5px black;
 }
@@ -57,7 +59,10 @@ body{
     line-height: 50px;
     text-align: center;
     font-weight: bold;
-    border: 1px solid black; 
+    background-color: gray;
+    color: white;
+    border-radius: 50%;
+    margin: 3px;
 }
 
 .num{
@@ -67,10 +72,18 @@ body{
     text-align: center;
     font-size: 2em;
     font-weight: bold;
-    border: 1px solid black;    
+    color: lightgreen;
+    background-color: gray;
+    border: 1px solid  black;
+    margin: 3px;
 }
 
-#maxNum{
-    display: flex;
+.btn:active{
+    box-shadow: 0 0 5px black;
+}
+
+#maxNumExtra, #maxNum{
+    border: 1px solid  black;
+    border-radius: 30px;
 }
 
